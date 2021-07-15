@@ -1,0 +1,20 @@
+data PATH_TO_DATA
+--batch-size 500
+--max-tokens 3000
+--arch exp-transformer
+--encoder-layers 4
+--encoder-attention-heads 4
+--lr 0.0001
+--lr-scheduler fixed
+--optimizer sgd
+--max-epoch 50
+--task explanation
+--dataset-impl raw
+--remove-eos-from-source
+--criterion explanation_cross_entropy
+--sentence-avg
+--no-token-positional-embeddings
+--encoder-output-dim 5
+--discretize-method categorize
+--ranking-label-types 5
+
