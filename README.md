@@ -1,5 +1,5 @@
 # L2E
-Code implementation for paper [Learning to Explain: Generating Stable Explanations Fast](https://acl2020.org/program/accepted/) (paper will be online soon) at ACL 2021, by Xuelin Situ, Ingrid Zukerman, Cecile Paris, Sameen Maruf and Reza Haffari.
+Code implementation for paper [Learning to Explain: Generating Stable Explanations Fast](https://aclanthology.org/2021.acl-long.415/) at ACL 2021, by Xuelin Situ, Ingrid Zukerman, Cecile Paris, Sameen Maruf and Reza Haffari.
 
 # Requirements and Installation
 

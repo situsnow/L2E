@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ef5c255-fb68-4a80-8d0b-22793a0f372e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/evaluation/compare_efficiency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/compare_faithfulness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/compare_faithfulness_agreement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/compare_imdbr_faithfulness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/compare_imdbr_stability.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/compare_stability.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/find_neighbours.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/find_neighbours_imdbr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation/utils_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fairseq/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning2explain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +85,21 @@
           <url>file://$PROJECT_DIR$/learning2explain.py</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fairseq/train.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fairseq/fairseq/criterions/explanation_cross_entropy.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fairseq/fairseq/criterions/explanation_cross_entropy.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

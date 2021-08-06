@@ -221,8 +221,6 @@ class ExplanationPureWeightDataset:
         self.sizes = np.array(self.sizes)
 
     def read_tgt(self, idx, line, tgt_padding):
-        if all(w == 0 for w in line):
-            print(idx)
 
         line = torch.FloatTensor(line)
         # append the padding for label tag (front/back) and eos to match the same length as the input
