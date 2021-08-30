@@ -99,7 +99,8 @@ def get_deep_shap_weights(args, tokenizer, bbox, x, y, input_id, logits, train_s
     shap_values = deepShapExplainer.shap_values(test_example, get_max_output=args.explain_label,
                                                 mini_batch=args.mini_batch)
     torch.cuda.empty_cache()
-    return [round(each, 8) for each in normalize(shap_values[0][:len(x)], args.norm)]
+    shap_values = construct_weights_after_backward(shap_values[0], input_id, tokenizer, x)
+    return [round(each, 8) for each in normalize(shap_values, args.norm)]
 
 
 def get_kernel_shap_weights(args, tokenizer, bbox, x, y, logits, input_id, train_split, index, train_data):
